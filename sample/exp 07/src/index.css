@@ -53,7 +53,10 @@
 body {
   margin: 0;
 }
-
+div{
+  color: #6300c7;
+  background-color: #aa3bff;
+}
 #root {
   width: 1126px;
   max-width: 100%;
