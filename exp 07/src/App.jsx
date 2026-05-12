@@ -17,15 +17,16 @@ function App() {
     <div className="app-container">
       <h1 className="app-title">Student Information</h1>
 
-      <Student name="Rahul Sharma"  course="CSE"       marks={80} />
-      <Student name="Anita Verma"   course="IT" marks={92} />
-      <Student name="Rohan Gupta"   course="Electronics"            marks={78} />
+      <Student name="Rahul Sharma" course="CSE" marks={80} />
+      <Student name="Anita Verma" course="IT" marks={92} />
+      <Student name="Rohan Gupta" course="Electronics" marks={78} />
+        <p>
+          NAME: PRIYANSHU KUMAR <br />
+          ROLL.NO: 2503201000871 <br />
+          SECTION: CSE 26
+        </p>
     </div>
   )
 }
 
-createRoot(document.getElementById('root')).render(
-  <StrictMode>
-    <App />
-  </StrictMode>,
-)
+export default App
